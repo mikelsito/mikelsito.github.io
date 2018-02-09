@@ -1,5 +1,8 @@
+.container {
+	margin: 40px 60px 40px 60px;
+}
+
 .index-info {
-	margin:10px 0 0 20px;
 	max-width: 600px;
 }
 
@@ -15,7 +18,7 @@
 .index-body{
 	margin:auto;
 	margin-top: 100px;
-	max-width: 1000px;
+	max-width: 1300px;
 }
 
 .uk-card {
@@ -31,3 +34,22 @@
     background-color: black;
     color: black;
 }
+
+/*.contact-bar {
+	align-items: center;
+	justify-content: center;
+}*/
+
+.contact-img {
+	max-height: 100px;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
