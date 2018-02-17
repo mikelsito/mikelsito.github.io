@@ -46,4 +46,15 @@ $(".crystal-collector").click(function() {
 	}
 });
 
+// Liri app on click
+$(".hangman-node").click(function() {
+	var win = window.open('https://github.com/mikelsito/terminal-hangman', '_blank');
+	if (win) {
+	    //Browser has allowed it to be opened
+	    win.focus();
+	} else {
+	    //Browser has blocked it
+	    alert('Please allow popups for this website');
+	}
+});
 
