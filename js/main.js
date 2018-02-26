@@ -1,4 +1,16 @@
 // Liri app on click
+$(".bamazon").click(function() {
+	var win = window.open('https://github.com/mikelsito/bamazon', '_blank');
+	if (win) {
+	    //Browser has allowed it to be opened
+	    win.focus();
+	} else {
+	    //Browser has blocked it
+	    alert('Please allow popups for this website');
+	}
+});
+
+// Liri app on click
 $(".liri").click(function() {
 	var win = window.open('https://github.com/mikelsito/liri-node-app', '_blank');
 	if (win) {
