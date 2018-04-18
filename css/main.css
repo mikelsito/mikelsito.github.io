@@ -1,5 +1,9 @@
 .container {
-	margin: 40px 60px 40px 60px;
+	margin: 0px 60px 0px 60px;
+}
+
+body {
+	background: url(../image/bg1.png) center center repeat;
 }
 
 .index-info {
@@ -23,6 +27,9 @@
 
 .uk-card {
 	min-height: 250px;
+	overflow-y: scroll;
+	max-height: 250px;
+	
 }
 
 .uk-card:hover { 
@@ -44,8 +51,9 @@
 	margin: 10px;
 }
 
-
-
+.uk-sticky {
+	min-height: 40px;
+}
 
 
 
