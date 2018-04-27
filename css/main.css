@@ -4,6 +4,7 @@
 
 body {
 	background: url(../image/bg1.png) center center repeat;
+	min-height: 100vh;
 }
 
 .index-info {
