@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,84 +15,91 @@
 	<link rel="stylesheet" href="css/main.css" />
 
 </head>
+
 <body>
 	<div class="container">
+
 		<div uk-sticky="bottom: true">
 		</div>
+
 		<div class="index-info">
+
 			<div class="nav">
 				<ul class="uk-breadcrumb">
-				    <li><a href="contact.html">Contact</a></li>
-				    <li><a href="resume.html">Resume</a></li>
-				    <li><a href="index.html">Home</a></li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+					<li>
+						<a href="resume.html">Resume</a>
+					</li>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
 				</ul>
 			</div>
+
 			<div class="article">
 				<article class="uk-article">
 					<h1 class="uk-article-title">Michael Belsito</h1>
-					<p class="text-body">Hello! My name is Michael Belsito, and I am a web and application developer. Please feel free to browse through projects that I've worked on below! I'm always open to working on new projects, so don't hesitate to contact me if you are interested.</p>
+					<p class="text-body">Hello! My name is Michael Belsito, and I am a web and application developer. Please feel free to browse through projects
+						that I've worked on below! I'm always open to working on new projects, so don't hesitate to contact me if you are interested.</p>
 				</article>
 			</div>
+
 		</div>
+
 		<div class="index-body">
+
 			<div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-fade; target: > div > .uk-card; delay: 400; repeat: true">
-				<div>
-					<div class="uk-card uk-card-default uk-card-body uk-background-muted hinder">
-						<h3 class="uk-card-title">Hinder</h3>
-						<p>Hinder is a mock social Network that allows users to create accounts with images, join or create a Hinder team, and send people on their team pranks. It utilizes Sequelize, Express, Node.js, and Handlebars.</p>
-					</div>
-				</div>
-				<div>
-					<div class="uk-card uk-card-default uk-card-body uk-background-secondary uk-light gif-gen">
+
+        	<a href="https://truethat.app" target="_blank">
+            <div class="uk-card uk-card-default uk-card-body uk-background-muted">
+              <h3 class="uk-card-title">True That!</h3>
+              <p>True That! is a socket.io powered real-time multiplayer game using the MERN stack and custom CSS/SASS.</p>
+            </div>
+          </a>
+
+				<a href="https://mikelsito.github.io/gif-generator/" target="_blank">
+					<div class="uk-card uk-card-default uk-card-body uk-background-secondary uk-light">
 						<h3 class="uk-card-title">Gif Generator</h3>
 						<p>This app uses the giphy API to generate gif files, whose animations can be toggled on and off via clicking.</p>
 					</div>
-				</div>
-				<div>
-					<div class="uk-card uk-card-default uk-card-body liri uk-background-muted">
+				</a>
+
+				<a href="https://github.com/mikelsito/liri-node-app" target="_blank">
+					<div class="uk-card uk-card-default uk-card-body uk-background-muted">
 						<h3 class="uk-card-title">Liri</h3>
 						<p>Liri is a command line interface application using node, which allows you to access various apis via the terminal.</p>
 					</div>
-				</div>
-				<div>
-						<div class="uk-card uk-card-default uk-card-body uk-background-secondary uk-light bamazon">
-							<h3 class="uk-card-title">Bamazon</h3>
-							<p>Bamazon is an application which requires node, inquirer and sql. It allows users to interface with a databse and change amounts from the terminal.</p>
-						</div>
-			    </div>
-			    <div>
-			        <div class="uk-card uk-card-default uk-card-body uk-background-muted net-mix">
-			            <h3 class="uk-card-title">Net Mix N' Chill</h3>
-			            <p>This app uses API calls and a drink object to make drink/movie pairings based off an emoji selection.</p>
-			        </div>
-			    </div>
-			    <div>
-			        <div class="uk-card uk-card-default uk-card-body uk-background-secondary uk-light crystal-collector">
-			            <h3 class="uk-card-title">Crystal Collector</h3>
-			            <p>Crystal Collector is a game with basic javascript functionality and css styling.</p>
-			        </div>
-			    </div>
-			    <div>
-			        <div class="uk-card uk-card-default uk-card-body uk-background-muted hangman-node">
-			            <h3 class="uk-card-title">Hangman Node App</h3>
-			            <p>This is a node application using the inquirer npm package. It allows the user to play a hangman game from the terminal.</p>
-			        </div>
-			    </div>
+				</a>
+
+				<a href="https://github.com/mikelsito/bamazon" target="_blank">
+					<div class="uk-card uk-card-default uk-card-body uk-background-secondary uk-light">
+						<h3 class="uk-card-title">Bamazon</h3>
+						<p>Bamazon is an application which requires node, inquirer and sql. It allows users to interface with a databse and change
+							amounts from the terminal.</p>
+					</div>
+        </a>
+        
+        <a href="https://github.com/mikelsito/hinder" target="_blank">
+					<div class="uk-card uk-card-default uk-card-body uk-background-muted">
+						<h3 class="uk-card-title">Hinder</h3>
+						<p>Hinder is a mock social Network that allows users to create accounts, join or create a Hinder team, and
+							send people on their team pranks. It uses Sequelize, Express, Node.js, and Handlebars.</p>
+					</div>
+				</a>
+
 			</div>
 		</div>
+
 		<div uk-sticky="bottom: true">
 		</div>
+
 	</div>
 
-	<!-- jQuery 3.2.1 -->
-	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-
 	<!-- uikit js -->
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
-
-    <!-- Additional Scripts -->
-    <script src="js/main.js"></script>
+	<script src="js/uikit.min.js"></script>
 
 </body>
+
 </html>
